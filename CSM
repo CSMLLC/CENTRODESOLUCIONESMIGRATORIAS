@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Centro de Soluciones Migratorias</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+        header {
+            background-color: #0033a0; /* Azul bandera EE.UU. */
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            background-color: #fff;
+            border-bottom: 2px solid #0033a0;
+            text-align: center;
+            padding: 10px;
+        }
+        nav a {
+            color: #0033a0;
+            text-decoration: none;
+            padding: 10px 20px;
+            display: inline-block;
+        }
+        main {
+            padding: 20px;
+        }
+        .contact-form, .gallery, .blog {
+            margin-bottom: 30px;
+        }
+        .contact-form input, .contact-form textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+        }
+        .contact-form button {
+            background-color: #0033a0;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        .contact-form button:hover {
+            background-color: #002080;
+        }
+        .gallery img {
+            width: 100%;
+            height: auto;
+            margin-bottom: 10px;
+        }
+        footer {
+            background-color: #0033a0;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Centro de Soluciones Migratorias</h1>
+        <p>Preparamos documentos de inmigración para iniciar tu proceso migratorio en EE.UU.</p>
+    </header>
+    <nav>
+        <a href="#contact">Contacto</a>
+        <a href="#gallery">Galería</a>
+        <a href="#blog">Blog</a>
+    </nav>
+    <main>
+        <section id="contact" class="contact-form">
+            <h2>Contacto</h2>
+            <form action="mailto:info@ejemplo.com" method="post" enctype="text/plain">
+                <label for="name">Nombre:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Correo electrónico:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="message">Mensaje:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+                
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+        <section id="gallery" class="gallery">
+            <h2>Galería</h2>
+            <img src="https://via.placeholder.com/800x400" alt="Imagen 1">
+            <img src="https://via.placeholder.com/800x400" alt="Imagen 2">
+            <img src="https://via.placeholder.com/800x400" alt="Imagen 3">
+        </section>
+        <section id="blog" class="blog">
+            <h2>Blog</h2>
+            <article>
+                <h3>Última entrada del blog</h3>
+                <p>Próximamente más contenido en nuestro blog...</p>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Centro de Soluciones Migratorias. Todos los derechos reservados.</p>
+        <p>Síguenos en <a href="#" style="color: #fff;">Facebook</a>, <a href="#" style="color: #fff;">Twitter</a>, <a href="#" style="color: #fff;">Instagram</a></p>
+    </footer>
+</body>
+</html>
